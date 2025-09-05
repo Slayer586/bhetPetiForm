@@ -24,6 +24,7 @@ const village = document.getElementById("village");
 
 const contactNumber = document.getElementById("contactNumber");
 const pincode = document.getElementById("pincode");
+const mainMemberDOB = document.getElementById("mainMemberDOB");
 
 const familyMembersDiv = document.getElementById("familyMembers");
 const addMemberBtn = document.getElementById("addMemberBtn");
@@ -174,6 +175,7 @@ form.addEventListener("submit", async (e) => {
     contactNumber: contactNumber.value,
     email: document.getElementById("email").value,
     mainMemberName: document.getElementById("mainMemberName").value,
+    mainMemberDOB: mainMemberDOB.value,
     address: {
       roomNo: document.getElementById("roomNo").value,
       street: document.getElementById("street").value,
