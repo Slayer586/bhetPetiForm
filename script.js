@@ -25,6 +25,7 @@ const village = document.getElementById("village");
 const contactNumber = document.getElementById("contactNumber");
 const pincode = document.getElementById("pincode");
 const mainMemberDOB = document.getElementById("mainMemberDOB");
+const mainMemberQualification = document.getElementById("mainMemberQualification");
 
 const familyMembersDiv = document.getElementById("familyMembers");
 const addMemberBtn = document.getElementById("addMemberBtn");
@@ -176,6 +177,7 @@ form.addEventListener("submit", async (e) => {
     email: document.getElementById("email").value,
     mainMemberName: document.getElementById("mainMemberName").value,
     mainMemberDOB: mainMemberDOB.value,
+    mainMemberQualification: mainMemberQualification.value,
     address: {
       roomNo: document.getElementById("roomNo").value,
       street: document.getElementById("street").value,
