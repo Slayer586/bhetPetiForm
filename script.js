@@ -92,14 +92,14 @@ function addFamilyMember() {
       <option value="Mother">Mother</option>
       <option value="Brother">Brother</option>
       <option value="Sister">Sister</option>
-      <option value="Daugher in Law">Daugher in Law</option>
+      <option value="Daughter in Law">Daughter in Law</option>
       <option value="Son in Law">Son in Law</option>
       <option value="Sister in Law">Sister in Law</option>
       <option value="Brother in Law">Brother in Law</option>
       <option value="Grandfather">Grandfather</option>
       <option value="Grandmother">Grandmother</option>
       <option value="Grand son">Grand son</option>
-      <option value="Grand daugher">Grand daugher</option>
+      <option value="Grand Daughter">Grand Daughter</option>
       <option value="Uncle">Uncle</option>
       <option value="Aunt">Aunt</option>
       <option value="Nephew">Nephew</option>
